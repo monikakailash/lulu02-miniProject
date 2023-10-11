@@ -23,9 +23,9 @@ public class DatabaseConnect {
 
 					 Class.forName("com.mysql.cj.jdbc.Driver");
 
-			         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/prolulu",
+			         Connection connection = DriverManager.getConnection("",
 
-			             "root", "Mkailash2002");
+			             "root", "");
 
 			         java.sql.Statement statement;
 
